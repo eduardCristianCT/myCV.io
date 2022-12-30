@@ -1,0 +1,139 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: rgb(10, 37, 71);
+    background-image: url(back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(188, 195, 209);;
+}
+#nav{
+    margin-bottom: 10px;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(6, 29, 68, 0.601);
+  }
+  
+  #nav li {
+    float: left;
+  }
+  
+  #nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #nav li a:hover {
+    background-color: #111;
+  }
+
+
+.intro{
+   
+    background-image: linear-gradient(rgb(44, 76, 107), rgb(8, 52, 101));
+    color: rgb(188, 195, 209);
+    
+    
+   
+    margin: 0 auto;
+    margin-bottom: -10px;
+    position: relative;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(3, 118, 144);
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.prof{
+    font-size: 20px;
+}
+
+.contact-info{
+    font-size: 16px;
+}
+
+.summary{
+    font-size: 15px;
+}
+
+.subheading{
+    font-size: 20px;
+}
+
+.deleted{
+    animation-name: anim;
+    animation-timing-function: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes anim {
+    0%{
+        width: 500px;
+    }
+    50%{
+        width: 250px;
+    }
+    100%{
+        display: none;
+       
+    }
+}
+
+#cv-container{
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+
+#info-container{
+    background-image: linear-gradient(rgb(19, 65, 115), rgb(109, 58, 128), rgb(54, 37, 132),  rgb(39, 27, 92));
+    background-color: rgb(13, 37, 51);
+    padding: 10px;
+    
+}
+
+.skills, .social{
+   
+    padding: 5px;
+}
+.social{
+   
+    margin: 0 auto;
+  
+}
+
+.social li{
+    margin: 0px 35px 0px 35px;
+    list-style-type: none;
+    display: inline-block;
+  
+   
+}
+
+.social a{
+    text-decoration: none;
+    color:  rgb(188, 195, 209);
+    display: block;
+
+}
+.social img{
+    size: 20px;
+}
+
+
+
